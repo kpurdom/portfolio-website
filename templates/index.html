@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kirsty Purdom</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}" type="text/css">
+
+    <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/0f96146c13.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</head>
+
+<body>
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <a class="navbar-brand" href="">Kirsty Purdom</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#title">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section class="header" id="title" style="background-image: url('https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1510&q=80')">
+      <div class="overlay"></div>
+      <div class="container-fluid">
+            <div class=row>
+            <div class="col-xl-6 col-lg-9 col-md-12 header-section">
+              <h1>KIRSTY PURDOM</h1>
+               <p>Actuary & Aspiring Data Scientist</p>
+            </div>
+
+          </div>
+        </div>
+    </section>
+    <section class="about-section" id="About">
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-6 col-lg-12">
+          <div class="about-me">
+          <h1>ABOUT ME</h1>
+          <p>Hi, I'm Kirsty! I'm a qualified actuary with 12 years of experience in the Finance industry.
+            I have experience working in a range of finance functions, including Asset Liability Management (ALM),
+              Capital Modelling, Pricing, Reporting and Longevity Research. I also have a keen interest in how companies
+            can use technology to improve our way of working within the Finance Industry.</p>
+          </div>
+          </div>
+        <div class="col-xl-6 col-lg-12">
+          <img class="about-img" src="{{ url_for('static',filename='img/logo.png')}}" alt="about-img">
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="Skills-section" id="Skills">
+      <div class="container-fluid">
+          <h1>SKILLS</h1>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="skills-box">
+          <i class="far fa-chart-bar skill-icon"></i>
+          <h5>Data Analysis</h5>
+          <p>Strong analytical and statistical skills. Experience in various finance functions within the Life Insurance industry. </p>
+          </div>
+          </div>
+        <div class="col-lg-4">
+          <div class="skills-box">
+          <i class="far fa-comments skill-icon"></i>
+          <h5>Communication</h5>
+          <p>Communicating complex mathematical, statistical and insurance concepts in an understandable manner. </p>
+          </div>
+          </div>
+        <div class="col-lg-4">
+          <div class="skills-box">
+          <i class="fab fa-python skill-icon"></i>
+          <h5>Coding</h5>
+          <p>Experience using Python, statistical programming packages (R & SPSS) and VBA. </p>
+        </div>
+          </div>
+      </div>
+        </div>
+    </section>
+    <section id="Testimonials" class="testimonials-section">
+      <div class="container-fluid">
+          <h1>TESTIMONIALS</h1>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="testimonials-box">
+          <img class="testimonials-img" src="{{ url_for('static',filename='img/pic3.jpg')}}" alt="test-img">
+          <h5>Joe Blogs</h5>
+          <p>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</p>
+          </div>
+          </div>
+        <div class="col-lg-4">
+          <div class="testimonials-box">
+          <img class="testimonials-img" src="{{ url_for('static',filename='img/pic4.jpg')}}" alt="test-img">
+          <h5>Jane Doe</h5>
+          <p>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</p>
+          </div>
+          </div>
+        <div class="col-lg-4">
+          <div class="testimonials-box">
+          <img class="testimonials-img" src="{{ url_for('static',filename='img/pic5.jpg')}}" alt="test-img">
+          <h5>Anon Amous</h5>
+          <p>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</p>
+        </div>
+          </div>
+      </div>
+        </div>
+    </section>
+
+    <section id="Contact" class="contact-section">
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-1">
+        </div>
+        <div class="col-xl-3 contact-img" style="background-image:url('https://marketplace.canva.com/MADQ5BUo4S8/1/screen_2x/canva-woman-working-on-the-desk-MADQ5BUo4S8.jpg')">
+        </div>
+        <div class="col-xl-8 col-lg-12">
+          <div class="contact-me">
+          <h1>WORK WITH ME</h1>
+          <p><strong>Mailing Address</strong></p>
+          <p>123 Anywhere St. Any City. Country 123456</p>
+          <br>
+          <p><strong>Email Address</strong></p>
+          <p>email@email.com</p>
+          <br>
+          <p><strong>Phone Number</strong></p>
+          <p>(123) 456 7890</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+<footer class="footer" id="footer">
+      <div class="container-fluid">
+
+    <i class="fab fa-linkedin footer-icon"></i>
+    <i class="fab fa-github footer-icon"></i>
+    <i class="fas fa-envelope footer-icon"></i>
+    <p>© Copyright 2021 Kirsty Purdom</p>
+
+    </div>
+</footer>
+</body>
+</html>

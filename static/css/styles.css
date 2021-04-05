@@ -1,0 +1,165 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  background-color: #1f4e5f;
+  opacity: 0.75;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+/* Header Section */
+section.header {
+    background: no-repeat center center;
+    background-size: cover;
+    background-attachment: scroll;
+    position: relative;
+}
+
+section.header .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background-color: #79a8a9;
+   opacity: 0.5;
+}
+
+.header-section {
+    top: 10%
+    left: 10%;
+    text-align: left;
+    margin: 120px 0 120px 0;
+    padding: 50px;
+    background-color: #1f4e5f;
+    color: #f4f7f7;
+}
+
+.header-section h1 {
+    font-size: 4rem;
+    padding: 20px 0;
+}
+
+/* About Section */
+.about-img {
+    width: 35%;
+    margin-top: 60px;
+    align: center;
+}
+
+.about-me {
+    width; 70%;
+    background-color: #aacfd0;
+    color: #1f4e5f;
+    padding: 50px;
+    margin: 5%;
+}
+
+.about-me h1 {
+    margin-bottom: 25px;
+}
+
+.about-section {
+    background-color: #f4f7f7;
+    padding: 50px;
+}
+
+/* Skills Section */
+.Skills-section {
+    background-color: #aacfd0;
+    padding: 100px;
+    color: #1f4e5f;
+}
+
+.skills-box {
+    margin: 50px;
+}
+
+.skills-box h5{
+    padding: 20px;
+}
+
+.skill-icon {
+    font-size: 3.5rem;
+    padding: 10px;
+}
+
+
+/* Testimonials Section */
+.testimonials-section {
+    background-color: #f4f7f7;
+    padding: 100px;
+    color: #1f4e5f;
+}
+
+.testimonials-box {
+    margin: 50px;
+}
+
+.testimonials-box h5{
+    padding: 20px;
+}
+
+.testimonials-img {
+    width: 75%;
+}
+
+/* Contact Section*/
+.contact-section {
+    background-color: #aacfd0;
+    padding: 50px;
+}
+
+.contact-img {
+    background: no-repeat center center;
+    background-size: cover;
+    background-attachment: scroll;
+    position: relative;
+}
+
+.contact-me {
+    text-align: right;
+    background-color: #1f4e5f;
+    color: #f4f7f7;
+    margin: 5% 10%;
+    padding: 70px;
+}
+
+.contact-me h1 {
+    margin-bottom: 50px;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #fff;
+}
+
+.footer-icon {
+  font-size: 2.5rem;
+  margin: 20px 25px;
+  color: #1f4e5f;
+}
